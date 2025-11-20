@@ -13,5 +13,12 @@ Once the router's IP is known and you have accessed its web interface, in this c
 
 Añadir Imagen
 
+## Pi-hole installation
+ssh
+Pi-hole installation using official [guide][2].
+Pi-hole setting up
+Pi-hole web interface
+
 ## Bibliography
 [1]: https://www.youtube.com/watch?v=sq5S1MM2Pmo
+[2]: https://github.com/pi-hole/pi-hole/#one-step-automated-install
