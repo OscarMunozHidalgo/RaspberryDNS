@@ -1,4 +1,4 @@
-# RaspBerryDNS
+# RaspberryDNS
 Making a network-wide ad blocker using Raspberry Pi 5. 
 
 ## Installing RaspberryPiOS
