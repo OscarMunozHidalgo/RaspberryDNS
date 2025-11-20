@@ -9,7 +9,9 @@ The RaspBerry Pi should be connected to the network router using a *static IP ad
 
 To make Raspberry Pi IP static, first we need to access the *router's administration interface*, you can do this by entering its IP address in a browser, usually it is 192.168.1.1, although more information might be available in the backside, under the router or in its manuals.
 
-Once the router's IP is known and you have access to its web interface, the 
+Once the router's IP is known and you have accessed its web interface, in this case it is located at *Advanced > Network > DHCP Server > Address Reservation*, when located, we select the Raspberry Pi and choose the IP it will be asigned next time it connects to the router.
+
+Añadir Imagen
 
 ## Bibliography
 [1]: https://www.youtube.com/watch?v=sq5S1MM2Pmo
