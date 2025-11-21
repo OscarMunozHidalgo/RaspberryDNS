@@ -13,9 +13,23 @@ Once the router's IP is known and you have accessed its web interface, in this c
 
 Añadir Imagen
 
-## Pi-hole installation
-ssh
-Pi-hole installation using official [guide][2].
+## Pi-hole
+### Remote Control
+This step can be skiped by locally operating the device, nontheless in this case ssh will be used to remote control the Raspberry Pi, using its IP address and user.
+
+```bash
+ssh <username>@<ipaddress>
+```
+
+## Instalation
+In this step Pi-hole official [guide][2] will be followed, using the *One-Step Automated Install* by executing the following command in the terminal.
+
+Please check the oficial [guide][2] as this command or the instalation method may change.
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
+
+Once this steps have been followed
 Pi-hole setting up
 Pi-hole web interface
 
