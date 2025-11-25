@@ -28,10 +28,16 @@ Please check the oficial [guide][2] as this command or the instalation method ma
 ```bash
 curl -sSL https://install.pi-hole.net | bash
 ```
+> [!WARNING]  
+> Pihole service may fail if apache2 is active simoultaneously, as pihole uses the same ports as apache2 by default (80 for http and 443 for https).
 
-Once this steps have been followed
+If both services need to be running at the same time, the port configuration needs to be modified.
+
+
+Once this steps have been completed
 Pi-hole setting up
 Pi-hole web interface
+Some pihole improvements
 
 ## Bibliography
 [1]: https://www.youtube.com/watch?v=sq5S1MM2Pmo
