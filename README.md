@@ -29,13 +29,17 @@ Please check the oficial [guide][2] as this command or the instalation method ma
 curl -sSL https://install.pi-hole.net | bash
 ```
 > [!WARNING]  
-> Pihole service may fail if apache2 is active simoultaneously, as pihole uses the same ports as apache2 by default (80 for http and 443 for https).
-
+> Pi-hole web interface uses port 80 for http and 443 for https by default so it may fail other service (as apache2) is active simoultaneously.
 If both services need to be running at the same time, the port configuration needs to be modified.
 
+Pi-hole web interface files should be moved to other location rather than the original `/var/www/html/admin` it can be done with the next commands.
 
-Once this steps have been completed
-Pi-hole setting up
+```
+mkdir <new directory>
+mv /var/www/html/admin <directory path>
+```
+Now that pi-hole files have been moved its configuration needs to be updated too. This can be made by `pihole-FTL --config` command or by modifying `/etc/pihole/pihole.toml` file, añadir explicación de como lo hice.
+
 Pi-hole web interface
 Some pihole improvements
 
